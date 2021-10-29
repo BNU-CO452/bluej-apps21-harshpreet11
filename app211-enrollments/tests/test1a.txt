@@ -1,0 +1,19 @@
+ Student ID: 22042433 Name: Harshpreet Kaur
+Course computing = new Course("btig2", "BSc Computing");
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: btig2: BSc Computing
+
+harsh.enrol(computing);
+harsh.print();
+ Student ID: 22042433 Name: Harshpreet Kaur
+harsh.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: btig2: BSc Computing
+

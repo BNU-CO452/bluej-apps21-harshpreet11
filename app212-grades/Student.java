@@ -24,7 +24,7 @@ public class Student
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("harshpreet kaur", 22042433);
     }
     
     /**
@@ -40,7 +40,14 @@ public class Student
 
     public void addMark(ModuleMark mark)
     {
-        marks.add(mark);
+        int value = 70;
+        for(Module module: coursee.module)
+        {
+            ModuleMark mark = new ModuleMark(module);
+            mark.setMark(value);
+            marks.add(mark);
+            
+            value = value - 10
     }
     
     /**
@@ -58,7 +65,7 @@ public class Student
     public void enrol(Course course)
     {
         this.course = course;
-        awardTestMarks();
+        CreateMarks();
     }
     
     /**
