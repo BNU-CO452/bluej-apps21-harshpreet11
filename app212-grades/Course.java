@@ -59,6 +59,15 @@ public class Course
      */
     public Grades convertToGrade(int mark)
     {
+        Grades grade = Grade.NS
+        if(mark<Grade,B.getValue()
+        {
+            return Grade.A;
+        }
+        else if(mark>= 60)
+        {
+            return Grade,B;
+            
         return Grades.NS;
     }
     
