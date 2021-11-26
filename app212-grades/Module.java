@@ -20,8 +20,8 @@ public class Module
      */
     public Module(String code, String title)
     {
-  
-       
+        this.code = code;
+        this.title = title;
     }
 
    
@@ -43,7 +43,7 @@ public class Module
      */
     public void print()
     {
-        module moduleco452 = new module("co452","programming concepts");
+        Module moduleco452 = new Module("co452","programming concepts");
     }
     
     /**
@@ -56,10 +56,7 @@ public class Module
         System.out.print("   ...........");
         System.out.println();
         
-        for(Module module: modules)
-        {
-        }
-        
+       
         System.out.print("\t");
     }
 }

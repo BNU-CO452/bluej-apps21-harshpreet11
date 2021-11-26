@@ -1,0 +1,33 @@
+Student harshpreet = new Student();
+Course computing = new Course();
+harshpreet.enrol(computing);
+harshpreet.print();
+ Student ID: 22042433, harshpreet kaur
+harshpreet.printCourse();
+ Student ID: 22042433, harshpreet kaur
+
+ Course G400: BSc Computing
+
+harshpreet.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22042433, harshpreet kaur
+
+ Course G400: BSc Computing
+
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+computing.print();
+
+ Course G400: BSc Computing
+
+computing.printModules();
+

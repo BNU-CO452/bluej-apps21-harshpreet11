@@ -5,6 +5,7 @@ import java.util.*;
  * 
  * @author Michael Kölling and David Barnes
  * Modified by Derek Peacock & Nicholas Day
+ * Harshpreet Kaur
  * @version 2021-08-18
  */
 public class Student
@@ -38,16 +39,18 @@ public class Student
         marks = new ArrayList<ModuleMark>();
     }
 
-    public void addMark(ModuleMark mark)
+    public void createMarks()
     {
         int value = 70;
-        for(Module module: coursee.module)
+        
+        for(Module module : course.modules)
         {
             ModuleMark mark = new ModuleMark(module);
             mark.setMark(value);
             marks.add(mark);
             
-            value = value - 10
+            value = value - 10;
+        }
     }
     
     /**
@@ -65,7 +68,7 @@ public class Student
     public void enrol(Course course)
     {
         this.course = course;
-        CreateMarks();
+        createMarks();
     }
     
     /**
