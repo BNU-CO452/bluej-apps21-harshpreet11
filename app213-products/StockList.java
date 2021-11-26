@@ -46,6 +46,17 @@ public class StockList
      */
     public void buyProduct(int productID, int amount)
     {
+        Product product = findProduct(productID);
+        if(product == null)
+        {
+            System.out.println("Sorry could not find " + productID);
+        }
+        else
+        {
+            product.increaseQuantity(amount);
+            System.out.println("I have bought " + amount + " of " + productID);
+            
+        }
     }
     
     /**
@@ -54,6 +65,13 @@ public class StockList
      */
     public Product findProduct(int productID)
     {
+        for(Product product : stock)
+        {
+            if(product.getID() == productID)
+            {
+                return product;
+            }
+        }          
         return null;
     }
     
