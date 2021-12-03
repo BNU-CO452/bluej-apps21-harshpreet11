@@ -1,0 +1,27 @@
+
+ Harshpreet's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+
+I have bought 17 of 101
+I have bought 8 of 102
+I have bought 5 of 103
+
+ Harshpreet's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 17
+ ID 102: Apple iPhone 12 stock level: 8
+ ID 103: Google Pixel 4A stock level: 5
+
+
+ Harshpreet's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 17
+ ID 102: Apple iPhone 12 stock level: 8
+ ID 103: Google Pixel 4A stock level: 5
+
